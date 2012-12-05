@@ -2,6 +2,19 @@
 lxml changelog
 ==============
 
+3.0.1.1 (2012-12-05)
+====================
+
+Note: this is not an official lxml release, it's a release of the Bright
+Interactive fork so we can use the change on our projects whilst we wait for
+https://github.com/lxml/lxml/pull/89 to be (hopefully) merged and included in
+an official release.
+
+Features added
+--------------
+
+* Allow the set of attributes considered safe by Cleaner to be overridden
+
 3.0.1 (2012-10-14)
 ==================
 
