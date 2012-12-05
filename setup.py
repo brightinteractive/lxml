@@ -167,16 +167,14 @@ def setup_extra_options():
     return extra_opts
 
 setup(
-    name = "lxml",
+    name = "bright-lxml",
     version = versioninfo.version(),
     author="lxml dev team",
     author_email="lxml-dev@lxml.de",
-    maintainer="lxml dev team",
-    maintainer_email="lxml-dev@lxml.de",
+    maintainer="Francis Devereux",
+    maintainer_email="francis@bright-interactive.co.uk",
     url="http://lxml.de/",
-    download_url="http://pypi.python.org/packages/source/l/lxml/lxml-%s.tar.gz" % versioninfo.version(),
-
-    description="Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
+    description="Bright Interactive's fork of lxml, which is a Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
 
     long_description=((("""\
 lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries.  It
